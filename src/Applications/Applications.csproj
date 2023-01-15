@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>Glen84.AnalyzerConfigTest.Applications</AssemblyName>
+    <Authors>Glen Ainscow</Authors>
+    <DevelopmentDependency>true</DevelopmentDependency>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageDescription>A shareable analyzer configuration for C# applications.</PackageDescription>
+    <PackageId>Glen84.AnalyzerConfigTest.Applications</PackageId>
+    <RepositoryUrl>https://github.com/glen-84/analyzer-config-test</RepositoryUrl>
+    <TargetFramework>net7.0</TargetFramework>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Applications.globalconfig" Pack="true" PackagePath="" />
+    <None Include="build/**/*" Pack="true" PackagePath="build" />
+  </ItemGroup>
+
+</Project>

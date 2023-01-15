@@ -1,0 +1,18 @@
+is_global = true
+
+# 1
+dotnet_diagnostic.RCS0056.severity = warning
+roslynator_max_line_length = 100
+
+# 2
+resharper_arrange_this_qualifier_highlighting = do_not_show
+
+dotnet_naming_style.lower_camel_case_style_1.capitalization = camel_case
+dotnet_naming_style.lower_camel_case_style_1.required_prefix =
+
+dotnet_naming_symbols.private_instance_fields_symbols.applicable_accessibilities = private
+dotnet_naming_symbols.private_instance_fields_symbols.applicable_kinds = field
+
+dotnet_naming_rule.private_instance_fields_rule.severity = warning
+dotnet_naming_rule.private_instance_fields_rule.style = lower_camel_case_style_1
+dotnet_naming_rule.private_instance_fields_rule.symbols = private_instance_fields_symbols
